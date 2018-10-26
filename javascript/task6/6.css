@@ -1,0 +1,8 @@
+li {
+    display: inline-block;
+    margin: 10px 10px;
+}
+
+.matched {
+    border: solid 1px cornflowerblue
+}
