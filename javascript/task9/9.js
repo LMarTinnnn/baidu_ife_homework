@@ -79,6 +79,8 @@ function addChildForChoosedElement(nodeText) {
     //所以必须创建多个 而不能用一个元素添加给多个父节点
     elementChosed.forEach((element)=> {
         var div = document.createElement('div')
+        //添加title便于搜索
+        div.title = nodeText
         div.innerHTML = nodeText
         element.appendChild(div)
     })
@@ -107,6 +109,7 @@ delBtn.onclick = () => {
 
 addBtn.onclick = () => {
     var text = document.getElementById("search-value").value
+    //添加title用于搜索
     addChildForChoosedElement(text)
     
     index=1
