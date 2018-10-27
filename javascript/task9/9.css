@@ -1,0 +1,10 @@
+div {
+    border: 1px solid black;
+    margin: 10px auto;
+    padding: 5px;
+    display: inline-block;
+}
+
+.chose {
+    background-color: red;
+}
